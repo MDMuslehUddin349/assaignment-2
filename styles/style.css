@@ -21,6 +21,13 @@
     border-radius: 42px;
     border: none;
     background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
 }
 
 .h1 {
@@ -31,6 +38,7 @@
     line-height: 40px;
     letter-spacing: 1px;
     text-align: left;
+
 }
 
 .h3 {
@@ -41,6 +49,7 @@
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: left;
+    margin: 50px auto;
 }
 
 .p {
@@ -53,14 +62,28 @@
     text-align: left;
 }
 
-/* header-section */
-header{
-    max-width: 1366px;
+main p {
+    margin: 0px;
+    margin-bottom: 10px;
 }
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background: rgb(0, 0, 0);
+}
+
+/* header-section */
+
 .header {
     width: 1366px;
     height: auto;
-    background: linear-gradient(180deg, rgb(20, 1, 1), rgba(30, 30, 30, 1) 50%, rgb(20, 1, 1));
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgba(40, 40, 40, 1) 50%, rgb(0, 0, 0));
 
 }
 
@@ -70,7 +93,7 @@ nav {
     margin: 0px auto;
 }
 
-nav p {
+.fitness {
     color: rgb(230, 83, 60);
     font-family: Inter;
     font-size: 2.25rem;
@@ -163,7 +186,6 @@ nav ul li:hover {
 }
 
 .header .content .button .join {
-
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 1.12rem;
@@ -196,11 +218,9 @@ nav ul li:hover {
     height: 582px;
     margin: 0px auto 0px;
 
-
 }
 
 .header-img img {
-
     width: 100%;
 }
 
@@ -218,7 +238,6 @@ nav ul li:hover {
     position: absolute;
     margin-top: -1000px;
     margin-left: 300px;
-
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -248,7 +267,6 @@ nav ul li:hover {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
 
@@ -260,4 +278,363 @@ nav ul li:hover {
     background: rgb(230, 83, 60);
     border-radius: 50%;
 }
-    
+
+/* main-section    */
+/* habits-section */
+
+.habits-content {
+    width: 671px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin: 0px auto;
+
+}
+
+.habits-content .h1 {
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.habits-img {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto 20px;
+    gap: 100px;
+}
+
+.habits-img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+.habits-description {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 270px;
+
+}
+
+.habits-description p {
+    margin: 0px;
+
+}
+
+.run {
+    width: 1060px;
+    height: 371px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-content {
+    width: 443px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0px;
+}
+
+.run-img img {
+    width: 100%;
+}
+
+.run-img {
+    width: 366px;
+    height: 312px;
+    margin: 30px 0px;
+}
+
+/* exercise-section */
+.exercise {
+    width: 1060px;
+    height: 371px;
+    background: rgb(0, 0, 0);
+    margin: 100px auto;
+
+}
+
+.exercise-content {
+    width: 671px;
+    height: 120px;
+    text-align: left;
+    justify-content: left;
+
+}
+
+.exercise-img {
+    width: 1060px;
+    height: 371px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, );
+    gap: 0px;
+    margin: 20px auto;
+
+}
+
+.container-1 {
+    position: relative;
+}
+
+.gradient-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 255, 210, 0.5);
+
+}
+
+.container-2 {
+    position: relative;
+}
+
+.gradient-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.3)
+}
+
+.container-3,
+.container-4 {
+    position: relative;
+}
+
+.gradient-3,
+.gradient-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.container-5 {
+    position: relative;
+}
+
+.gradient-5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 255, 0, 0.3)
+}
+
+.container-6 {
+    position: relative;
+}
+
+.gradient-6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 71, 255, 0.3)
+}
+
+.exercise-p {
+    position: absolute;
+    width: 176px;
+    height: 34px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    bottom: 10px;
+    left: 10px;
+}
+
+.exercise-lorem {
+    position: absolute;
+    width: 176px;
+    height: 17px;
+    left: 31px;
+    top: 25px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+/* bmi-calculator-section */
+.bmi-calculator {
+    width: auto;
+    height: auto;
+}
+
+.bmi-header {
+    width: 671px;
+    height: 120px;
+    margin: 100px auto 0px;
+    margin-top: 300px;
+}
+
+.bmi-content {
+    width: auto;
+    height: auto;
+    background: rgb(34, 34, 34);
+
+}
+
+.chart {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.chart-a,
+.chart-b {
+    margin: 20px auto 80px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    padding-right: 100px;
+}
+
+table tr td {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    padding-right: 100px;
+
+}
+
+.chart-b input,
+select {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 40px 12px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px;
+}
+
+/* team-section */
+.team {
+    width: 1060px;
+    height: 782px;
+    margin: 80px auto;
+}
+
+.team-content {
+    width: 671px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14;
+    padding: 0px;
+    margin: 10px auto;
+}
+
+.team-img {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    margin: 50px auto;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+
+.team-img img {
+    width: 326.67px;
+    height: 272px;
+    gap: 0px;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 18px;
+}
+
+/* footer-section */
+.footer {
+    width: auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.div-f {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+.div-1 {
+    width: 443px;
+    height: 176px;
+}
+
+.div-2 p,
+.div-3 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid white;
+    padding: 20px;
+}
